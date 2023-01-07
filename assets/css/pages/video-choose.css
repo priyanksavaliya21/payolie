@@ -1,0 +1,421 @@
+/*********************  Default-CSS  *********************/
+
+html body {
+    font-family: 'Poppins';
+    margin: 0;
+    line-height: 1.4;
+    font-size: 16px;
+    background: #FFFFFF;
+ 
+}
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+a,
+span,
+a:hover,
+a:active,
+button {
+    text-decoration: none;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a:focus, button:focus, input:focus, select:focus {
+    outline: none;
+}
+body .clearfix,
+body .clear {
+    clear: both;
+    line-height: 100%;
+}
+body .clearfix {
+    height: auto;
+}
+* {
+    outline: none !important;
+}
+ul
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.wrap {
+    width: 100%;
+    float: left;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.cm_overflow{
+    overflow: hidden;
+}
+.main-wrapper{
+    overflow: hidden;
+}
+/*********************  Default-CSS close  *********************/
+
+/*********************  Main-CSS Start  *********************/
+.header_wrap{
+    padding: 30px;
+    background: #FFFFFF;
+}
+.spacer{
+    padding: 150px 0 100px 0;
+}
+.select_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select_warp{
+    background: #FAFAFD;
+    box-shadow: 0px 1px 37px #FAC2FF;
+    border-radius: 20px;
+    min-width: 741px;
+    height: 401px;
+    overflow: hidden;
+    text-align: center;
+    padding: 100px 0 0 0;
+    position: relative;
+}
+.select_warp h6{
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 30px;
+}
+.select_warp p{
+    color: #000000;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 6px;
+}
+input[type="file"] {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 6;
+}
+.custom_file_upload{
+    margin-top: 35px;
+    border: 1px solid #E266ED;
+    display: inline-block;
+    padding: 7px 25px 8px;
+    cursor: pointer;
+    color: #E266ED;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.video_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video_input div{
+    min-width: 741px;
+}
+.video_input input{
+    width: 100%;
+    background: #FAFAFD;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 0px 10px 25px;
+    margin-top: 60px;
+}
+.video_input input::placeholder{
+    color: #000000;
+    opacity: 0.4;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.video_input div textarea{
+    width: 100%;
+    margin-top: 20px;
+    background: #FAFAFD;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 18px 25px 18px 25px;
+    height: 145px;
+    resize: none;
+}
+.video_input textarea::placeholder{
+    color: #000000;
+    opacity: 0.4;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.video_btn{
+    text-align: center;
+}
+.video_btn .single_btn{
+    display: inline-block;
+    background: #DDDDDD;
+    border-radius: 13px;
+    padding: 18px 250px;
+    margin-top: 56px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #787878;
+}
+.video_btn .single_btn.active{
+    display: inline-block;
+    background: #FAC2FF;
+    border-radius: 13px;
+    padding: 18px 250px;
+    margin-top: 56px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+
+}
+.video_btn .video_link{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #C5C4C4;
+    margin-top: 20px;
+}
+.videoSour_position{
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    border-radius: 20px
+}
+video {
+    display: block;
+}
+div#videoSourceWrapper {
+    position: relative;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 100%;
+}
+#videoSourceWrapper video {
+    height: 100%;
+    min-width: 100%;
+    position: absolute;
+    z-index: 01;
+    object-fit: cover;
+       border-radius: 20px;
+}
+#videoSourceWrapper .progress-overlay {
+    position: absolute;
+    z-index: 22;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.9);
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 170px 80px;
+    align-items: center;
+}
+.progress-overlay > * {
+    width: 100%;
+}
+.file-name{
+    text-align: left;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 1 !important;
+}
+.progress-meta{
+    margin-top: 12px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.progress-meta .upload-filesize{
+    color: rgba(45, 55, 72, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+.progress-meta .upload-percentage{
+    color: #E266ED;
+    font-size: 16px;
+    font-weight: 400;
+}
+.progress-cover {
+    width: 100%;
+    background-color: rgba(73, 33, 77, .08);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.uploaded #videoSourceWrapper .progress-overlay{
+  display: none;
+}
+.select_warp.uploaded {
+    box-shadow: none;
+}
+.uploaded input{
+    pointer-events: none;
+
+}
+/*********************  Main-CSS close  *********************/
+
+/********************* Media Query-CSS close  *********************/
+@media (min-width: 768px) and (max-width: 1440px){
+    .select_warp {
+        min-width: 600px;
+        height: 300px;
+        padding: 50px 0 0 0;
+    }
+    #videoSourceWrapper .progress-overlay {
+        padding: 70px 40px;
+    }
+    .video_input input {
+        margin-top: 40px;
+    }
+    .video_input div{
+        min-width: 600px;
+    }
+    .video_btn .single_btn {
+        padding: 18px 240px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .header_wrap {
+        padding: 30px 30px 0;
+    }
+    .video_input div textarea {
+        height: 105px;
+    }
+    .video_btn .video_link {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .spacer {
+        padding: 20px 0 60px 0;
+    }
+}
+@media screen and (max-width: 767px){
+    .header_wrap {
+        padding: 20px;
+    }
+    .container{
+        padding-left: 25px;
+        padding-right: 25px
+    }
+    .spacer {
+        padding: 50px 0 50px 0;
+    }
+    .select_warp{
+        min-width: 100%;
+        padding: 30px 0;
+        height: auto;
+    }
+    .video_input div{
+        min-width: 100%;
+    }
+    .video_btn .single_btn{
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+    .video_btn .single_btn.active{
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+    #videoSourceWrapper .progress-overlay{
+        padding: 75px 30px;
+    }
+    .progress-meta .upload-filesize{
+        color: rgba(45, 55, 72, 0.4);
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .progress-meta .upload-percentage{
+        color: #E266ED;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .video_btn .video_link{
+        font-size: 16px;
+    }
+    .select_warp h6{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .custom_file_upload {
+        margin-top: 25px;
+    }
+    .select_warp p {
+        font-size: 14px;
+    }
+    .video_btn .single_btn{
+        margin-top: 35px;
+    }
+    .video_banner {
+        width: 100%;
+        padding: 150px 7px !important;
+    }
+    .uploading p{
+        font-size: 14px;
+    }
+    .uploading span{
+        font-size: 14px;
+    }
+}
+
+/*********************  Media Query-CSS close  *********************/

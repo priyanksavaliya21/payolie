@@ -1,0 +1,360 @@
+@import '../includes/_imports.css';
+
+main {
+    width: 100%;
+    background: #F5F5FD;
+    display: grid;
+    grid-template-columns: 320px auto;
+    grid-gap: 50px;
+}
+
+/* Content Section */
+main .content {
+    width: 100%;
+    max-height: 100vh;
+    padding: 30px 50px 50px 0px;
+    overflow-y: scroll;
+}
+
+main .content::-webkit-scrollbar {
+    display: none;
+}
+
+main .content h1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--dark-color);
+    margin-bottom: 40px;
+}
+
+main .content .content-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 480px;
+    grid-gap: 20px;
+}
+
+main .content .content-wrapper .content-left {
+    width: 100%;
+    padding: 50px;
+    height: fit-content;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+main .content .content-wrapper .content-left h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+
+main .content .content-wrapper .content-left .inputs-group {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 38px;
+    margin-bottom: 38px;
+}
+
+main .content .content-wrapper .content-left .input-group {
+    width: 100%;
+}
+
+main .content .content-wrapper .content-left .input-group label {
+    display: block;
+    font-size: 16px;
+    color: var(--primary-text-color);
+    margin-bottom: 8px;
+}
+
+main .content .content-wrapper .content-left .input-group input {
+    width: 100%;
+    height: 50px;
+    padding: 0px 15px;
+    background: #F5F5FD;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+main .content .content-wrapper .content-left .input-group .select {
+    width: 100%;
+    height: 50px;
+    padding: 0px 15px;
+    background: #F5F5FD;
+    border-radius: 10px;
+}
+
+main .content .content-wrapper .content-left .input-group .select select {
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+}
+
+main .content .content-wrapper .content-left .input-group button {
+    position: relative;
+}
+
+main .content .content-wrapper .content-left .input-group button svg {
+    opacity: 0.3;
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+}
+
+main .content .content-wrapper .content-left .input-group button.active svg {
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+main .content .content-wrapper .content-left .input-group button span {
+    position: absolute;
+    bottom: 3px;
+    right: 0px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+main .content .content-wrapper .content-left .btns {
+    margin-top: 38px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 38px;
+}
+
+main .content .content-wrapper .content-left .btns button {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+main .content .content-wrapper .content-left .btns button:hover {
+    background: var(--dark-color) !important;
+}
+
+main .content .content-wrapper .content-left .btns button.save-changes-btn {
+    background: var(--primary-color);
+}
+
+main .content .content-wrapper .content-left .btns button.delete-account-btn {
+    background: #FA3E3E;
+}
+
+main .content .content-wrapper .content-right-part {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+main .content .content-wrapper .content-right {
+    width: 100%;
+    padding: 50px;
+    height: fit-content;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .content .content-wrapper .content-right img {
+    width: 185px;
+    margin-bottom: 40px;
+}
+
+main .content .content-wrapper .content-right button {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: var(--primary-color);
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+main .content .content-wrapper .content-right button:hover {
+    background: var(--dark-color);
+}
+
+main .content .content-wrapper .payment-preference-box {
+    flex: 1 1 auto;
+    margin-top: 20px;
+    width: 100%;
+    padding: 50px;
+    height: fit-content;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .content .content-wrapper .payment-preference-box h2 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+
+main .content .content-wrapper .payment-preference-box .input-group {
+    width: 100%;
+    margin-bottom: 38px;
+}
+
+main .content .content-wrapper .payment-preference-box .input-group:last-child {
+    margin-bottom: 0px;
+}
+
+main .content .content-wrapper .payment-preference-box .input-group label {
+    display: block;
+    font-size: 16px;
+    color: var(--primary-text-color);
+    margin-bottom: 8px;
+}
+
+main .content .content-wrapper .payment-preference-box .input-group .select {
+    width: 100%;
+    height: 50px;
+    padding: 0px 15px;
+    background: #F5F5FD;
+    border-radius: 10px;
+}
+
+main .content .content-wrapper .payment-preference-box .input-group .select select {
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+}
+
+main .content .content-wrapper .payment-preference-box .input-group .wallets {
+    display: flex;
+}
+
+main .content .content-wrapper .payment-preference-box .input-group .wallets button {
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+}
+
+main .content .content-wrapper .payment-preference-box .input-group .wallets button:last-child {
+    margin-right: 0px;
+}
+
+main .content .content-wrapper .payment-preference-box .input-group .wallets button img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+main .content .content-wrapper .payment-preference-box .input-group .wallets button span {
+    position: absolute;
+    bottom: 3px;
+    right: 0px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1540px) {
+    main .content .content-wrapper {
+        grid-template-columns: auto 350px;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    main .content .content-wrapper {
+        grid-template-columns: auto 280px;
+    }
+
+    main .content .content-wrapper .content-right img {
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    main .content .content-wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    main .content .content-wrapper .content-right img {
+        width: 140px;
+    }
+
+    main .content .content-wrapper .content-left {
+        order: 2;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    main {
+        grid-template-columns: 1fr;
+        display: flex;
+        justify-content: center;
+    }
+
+    main .content {
+        width: 92%;
+        margin: auto;
+        padding: 30px 0px;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    main .content .content-wrapper .content-left .inputs-group {
+        grid-template-columns: 1fr;
+    }
+
+    main .content .content-wrapper .content-left {
+        padding: 30px 25px;
+    }
+
+    main .content .content-wrapper .content-left .inputs-group {
+        grid-gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    main .content .content-wrapper .content-left .btns {
+        margin-top: 20px;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    main .content .content-wrapper .content-right {
+        padding: 30px 25px;
+    }
+
+    main .content .content-wrapper .payment-preference-box {
+        padding: 30px 25px;
+    }
+
+    main .content .content-wrapper .payment-preference-box .input-group {
+        margin-bottom: 20px;
+    }
+}

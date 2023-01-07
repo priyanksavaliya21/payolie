@@ -1,0 +1,267 @@
+/*********************  Default-CSS  *********************/
+html body {
+    font-family: 'Poppins';
+    margin: 0;
+    line-height: 1.4;
+    font-size: 16px;
+}
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+a,
+span,
+a:hover,
+a:active,
+button {
+    text-decoration: none;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a:focus, button:focus, input:focus, select:focus {
+    outline: none;
+}
+body .clearfix,
+body .clear {
+    clear: both;
+    line-height: 100%;
+}
+body .clearfix {
+    height: auto;
+}
+* {
+    outline: none !important;
+}
+ul
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+/*********************  Default-CSS  *********************/
+
+
+/*********************  Redesigned_New - CSS  *********************/
+.redesigned_warp{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../../assets/images/who_are_you.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 85px 50px 85px;
+}
+.redesigned_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    text-align: center;
+}
+.redesigned_inner_warp{
+    width: 62%;
+    background: #FBD1FF;
+    box-shadow: 0px -5px 0px #37183A, 0px 74px 150px rgba(246, 148, 255, 0.79);
+    border-radius: 16px;
+    padding: 75px 173px 50px 172px;
+}
+.redesigned_new_title{
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    color: #37183A;
+    margin-bottom: 35px;
+}
+.redesigned_new_list li label{
+    display: block;
+    background: #37183A;
+    border-radius: 100px;
+    padding: 12px 0;
+    margin-bottom: 37px;
+    text-align: center;
+    color: #F8EAFA;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.job_checkbox input {
+    display: none;
+}
+.redesigned_new_list .job_checkbox input:checked + label {
+    transform: translateY(-5px);
+    box-shadow: 0px 20px 47px #F695FF;
+}
+.redesigned_new_btn{
+    text-align: center;
+    display: inline-block;
+    color: #37183A;
+    font-weight: 500;
+    font-size: 22px;
+    background: #FFFFFF;
+    box-shadow: 0px 39px 66px #F695FF;
+    border-radius: 100px;
+    padding: 13px 110px 15px 110px;
+    margin-top: 12px;
+    transition: all 0.3s ease;
+}
+.redesigned_new_btn:hover{
+    transform: translateY(-5px);
+}
+/*********************  Redesigned_New - CSS  *********************/
+
+/*********************  Media Queries - CSS  *********************/
+@media screen and (max-width: 1920px){
+    .redesigned_inner_warp{
+        width: 72%;
+    }
+}
+@media screen and (max-width: 1750px){
+    .redesigned_inner_warp{
+        width: 72%;
+        padding: 20px 110px 30px 110px;
+    }
+    .redesigned_new_title{
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .redesigned_warp {
+        padding: 15px;
+    }
+    .redesigned_sec {
+        margin-top: 20px;
+    }
+    .redesigned_inner_warp{
+        width: 72%;
+        padding: 20px 110px 30px 110px;
+    }
+    .redesigned_new_title{
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .redesigned_new_list li label {
+        margin-bottom: 20px;
+    }
+    .redesigned_new_btn{
+        margin: 0;
+        padding: 10px 110px 10px 110px;
+    }
+}
+@media screen and (max-width: 1199px){
+    .redesigned_warp {
+        padding: 15px;
+    }
+    .redesigned_sec {
+        margin-top: 30px;
+    }
+    .redesigned_inner_warp{
+        width: 80%;
+        padding: 40px 80px 40px 80px;
+    }
+    .redesigned_new_title{
+        font-size: 31px;
+    }
+    .redesigned_new_list li label {
+        margin-bottom: 32px;
+    }
+}
+@media screen and (max-width: 991px){
+    .redesigned_warp {
+        padding: 15px;
+    }
+    .redesigned_inner_warp {
+        width: 87%;
+        padding: 60px 70px 50px 70px;
+    }
+    .redesigned_new_title {
+        font-size: 26px;
+    }
+    .redesigned_new_list li label {
+        margin-bottom: 32px;
+    }
+    .redesigned_sec {
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width: 767px){
+    .redesigned_warp {
+        padding: 15px;
+    }
+    .redesigned_sec {
+        margin-top: 100px;
+    }
+    .redesigned_inner_warp{
+        width: 100%;
+        padding: 30px 18px;
+    }
+    .redesigned_new_title {
+        font-size: 24px;
+        margin-bottom: 22px;
+    }
+    .redesigned_new_list li label{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .redesigned_new_btn {
+        padding: 13px 90px 13px 90px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .redesigned_warp {
+        padding: 15px;
+    }
+    .redesigned_sec {
+        margin-top: 30px;
+    }
+    .redesigned_inner_warp{
+        width: 100%;
+        padding: 30px 18px;
+    }
+    .redesigned_new_title {
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+    .redesigned_new_list li label{
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+/*********************  Media Queries - CSS  *********************/

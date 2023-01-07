@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="./assets/images/brand/icon-primary.svg" type="image/svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="./assets/css/pages/account.css">
+
+    <title>Account - User Dashboard | Payolie</title>
+</head>
+<body>
+
+    <main>
+        <div class="side-bar">
+            <button class="side-bar-close-trigger">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 1L1 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1 1L13 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </button>
+
+            <div class="side-bar-top">
+                <a href="./" class="logo">
+                    <img src="./assets/images/brand/logo-white.png" alt="">
+                </a>
+
+                <hr> 
+
+                <ul>
+                    <li>
+                        <a href="./">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="1" width="6" height="6" rx="1" stroke="#494667" stroke-width="1.5" stroke-linejoin="round"/>
+                                <rect x="1" y="11" width="6" height="6" rx="1" stroke="#494667" stroke-width="1.5" stroke-linejoin="round"/>
+                                <rect x="11" y="11" width="6" height="6" rx="1" stroke="#494667" stroke-width="1.5" stroke-linejoin="round"/>
+                                <rect x="11" y="1" width="6" height="6" rx="1" stroke="#494667" stroke-width="1.5" stroke-linejoin="round"/>
+                            </svg>
+                            Dashboard
+                        </a>
+                    </li>
+
+                    <li class="active">
+                        <a href="./account.html">
+                            <svg width="18" height="25" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.7274 17.4471C16.2716 16.1713 15.2672 15.0439 13.8701 14.2399C12.4729 13.4358 10.7611 13 9 13C7.23893 13 5.52706 13.4358 4.12991 14.2399C2.73276 15.0439 1.72839 16.1713 1.27259 17.4471" stroke="#E266ED" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="9" cy="5" r="4" stroke="#E266ED" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Account
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./streaming-history.html">
+                            <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.92893 4.42893C2.29301 6.06486 1.27492 8.21741 1.04815 10.5198C0.821384 12.8222 1.39996 15.1321 2.6853 17.0557C3.97064 18.9793 5.88322 20.3978 8.09715 21.0694C10.3111 21.741 12.6894 21.6242 14.8268 20.7388C16.9643 19.8534 18.7286 18.2543 19.8192 16.214C20.9098 14.1736 21.2592 11.8182 20.8079 9.5491C20.3565 7.28 19.1323 5.2376 17.3439 3.7699C15.5555 2.30219 13.3136 1.5 11 1.5" stroke="#494667" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M11 11.5L6 6.5" stroke="#494667" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M11 2V4.5" stroke="#494667" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Streaming History
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./orders.html">
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.30674 15.382C4.64512 15.8989 5.04389 16.3774 5.49678 16.8067C6.61897 17.8703 8.02534 18.586 9.54574 18.8671C11.0661 19.1482 12.6354 18.9826 14.0637 18.3905C15.492 17.7984 16.7181 16.8051 17.5937 15.5308C18.4693 14.2564 18.9568 12.7556 18.9974 11.21C19.0379 9.66437 18.6296 8.14012 17.822 6.82165C17.0144 5.50318 15.842 4.44699 14.4467 3.78088C13.5023 3.33006 12.4833 3.07098 11.448 3.01292L12.0032 5.08481C12.5483 5.17725 13.0809 5.34507 13.585 5.58575C14.6315 6.08534 15.5108 6.87748 16.1165 7.86633C16.7222 8.85518 17.0284 9.99837 16.998 11.1576C16.9677 12.3168 16.602 13.4424 15.9453 14.3982C15.2886 15.3539 14.369 16.0989 13.2978 16.543C12.2266 16.9871 11.0496 17.1112 9.90933 16.9004C8.76903 16.6896 7.71425 16.1528 6.87261 15.3551C6.69687 15.1886 6.532 15.0121 6.37864 14.8269L4.30674 15.382Z" fill="#494667"/>
+                                <path d="M4.91239 3.06647C5.68924 2.47037 6.54796 1.99272 7.46042 1.64739C7.87978 1.48868 8.08946 1.40932 8.28694 1.51053C8.48442 1.61174 8.54649 1.84338 8.67063 2.30667L10.7412 10.0341C10.8632 10.4894 10.9242 10.7171 10.8206 10.8964C10.7171 11.0758 10.4894 11.1368 10.0341 11.2588L2.30667 13.3294C1.84338 13.4535 1.61174 13.5156 1.42535 13.3952C1.23896 13.2747 1.20284 13.0535 1.13061 12.6109C0.973443 11.6481 0.95774 10.6656 1.08555 9.69474C1.25696 8.39275 1.68314 7.13728 2.33975 6C2.99636 4.86272 3.87054 3.8659 4.91239 3.06647Z" stroke="#494667" stroke-width="2"/>
+                            </svg>
+                            Orders
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./crypto-wallet.html">
+                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.25 1H7.75C4.56802 1 2.97703 1 1.98851 2.00421C1 3.00841 1 4.62465 1 7.85714V10.1429C1 13.3753 1 14.9916 1.98851 15.9958C2.97703 17 4.56802 17 7.75 17H12.25C15.432 17 17.023 17 18.0115 15.9958C19 14.9916 19 13.3753 19 10.1429V7.85714C19 4.62465 19 3.00841 18.0115 2.00421C17.023 1 15.432 1 12.25 1Z" stroke="#494667" stroke-width="1.8"/>
+                                <path d="M5 5H8" stroke="#494667" stroke-width="1.8" stroke-linecap="round"/>
+                                <path d="M17 13H15C14.0572 13 13.5858 13 13.2929 12.7071C13 12.4142 13 11.9428 13 11C13 10.0572 13 9.58579 13.2929 9.29289C13.5858 9 14.0572 9 15 9H17C17.9428 9 18.4142 9 18.7071 9.29289C19 9.58579 19 10.0572 19 11C19 11.9428 19 12.4142 18.7071 12.7071C18.4142 13 17.9428 13 17 13Z" stroke="#494667" stroke-width="1.8"/>
+                            </svg>
+                            Your Wallet
+                        </a>
+                    </li>
+                </ul> 
+            </div>
+
+            <div class="side-bar-bottom">
+                <a href="">       
+                    <img src="./assets/images/user.svg" alt="">
+                    <div class="logoutContent">
+                        <b>Mathew Reid Jr.</b>
+                        <span> <small>(0xX23B...C45E)</small> Logout</span>
+                    </div>                   
+                </a>
+ 
+            </div>
+        </div>
+
+        <section class="content"> 
+            <div class="top-bar">
+                <button class="side-bar-open-trigger">
+                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1H17" stroke="#191628" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M1 7H17" stroke="#191628" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M1 13H17" stroke="#191628" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <div class="top-head-right">
+                    <a href="#">
+                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.03809 12L6.03809 6.03185C6.03808 3.25284 8.29092 1 11.0699 1V1C13.8489 1 16.1018 3.25284 16.1018 6.03185L16.1018 12" stroke="#E266ED" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M0.928812 11.6731C1.07176 9.92987 1.14323 9.05826 1.71753 8.52913C2.29182 8 3.16636 8 4.91543 8H17.2247C18.9738 8 19.8483 8 20.4226 8.52913C20.9969 9.05826 21.0684 9.92987 21.2113 11.6731L21.9627 20.8365C22.0457 21.849 22.0873 22.3552 21.7902 22.6776C21.4932 23 20.9852 23 19.9694 23H2.17071C1.15489 23 0.646971 23 0.349923 22.6776C0.0528745 22.3552 0.0943844 21.849 0.177404 20.8365L0.928812 11.6731Z" fill="#E266ED"/>
+                        </svg>
+                        Continue Shopping
+                    </a>
+                    <!-- <a href="#" class="profile-coin"><img src="./assets/images/user.svg" alt=""> 0x34ER...4AR1</a> -->
+                </div>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="content-left">
+                    <h2>Your Account Information</h2>
+
+                    <div class="inputs-group">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="John" value="Mathew">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Age</label>
+                            <input type="text" value="15">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="johndoe@website.com" value="aarezarohan@gmail.com">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Phone Number</label>
+                            <input type="text" placeholder="+123456789" value="+880 1832350023">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Password</label>
+                            <input type="password" placeholder="**********" value="**********">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Confirm Password</label>
+                            <input type="password" placeholder="**********" value="**********">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Favorite Artist</label>
+                            <input type="text" value="Sports">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Favorite Genre</label>
+                            <div class="select">
+                                <select required>
+                                    <option value="">Select</option>
+                                    <option value="Hiphop">Hiphop</option>
+                                    <option value="Funk" selected>Funk</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Social Media</label>
+
+                            <div class="social-links">
+                                <button class="active">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16Z" fill="#1877F2"></path>
+                                        <path d="M24 16C24 11.6 20.4 8 16 8C11.6 8 8 11.6 8 16C8 20 10.9 23.3 14.7 23.9V18.3H12.7V16H14.7V14.2C14.7 12.2 15.9 11.1 17.7 11.1C18.6 11.1 19.5 11.3 19.5 11.3V13.3H18.5C17.5 13.3 17.2 13.9 17.2 14.5V16H19.4L19 18.3H17.1V24C21.1 23.4 24 20 24 16Z" fill="white"></path>
+                                    </svg>
+                                </button>
+
+                                <button class="active">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16Z" fill="#F00073"></path>
+                                        <path d="M16 9.2C18.2 9.2 18.5 9.2 19.4 9.2C20.2 9.2 20.6 9.4 20.9 9.5C21.3 9.7 21.6 9.8 21.9 10.1C22.2 10.4 22.4 10.7 22.5 11.1C22.6 11.4 22.7 11.8 22.8 12.6C22.8 13.5 22.8 13.7 22.8 16C22.8 18.3 22.8 18.5 22.8 19.4C22.8 20.2 22.6 20.6 22.5 20.9C22.3 21.3 22.2 21.6 21.9 21.9C21.6 22.2 21.3 22.4 20.9 22.5C20.6 22.6 20.2 22.7 19.4 22.8C18.5 22.8 18.3 22.8 16 22.8C13.7 22.8 13.5 22.8 12.6 22.8C11.8 22.8 11.4 22.6 11.1 22.5C10.7 22.3 10.4 22.2 10.1 21.9C9.80001 21.6 9.60001 21.3 9.50001 20.9C9.40001 20.6 9.30001 20.2 9.20001 19.4C9.20001 18.5 9.20001 18.3 9.20001 16C9.20001 13.7 9.20001 13.5 9.20001 12.6C9.20001 11.8 9.40001 11.4 9.50001 11.1C9.70001 10.7 9.80001 10.4 10.1 10.1C10.4 9.8 10.7 9.6 11.1 9.5C11.4 9.4 11.8 9.3 12.6 9.2C13.5 9.2 13.8 9.2 16 9.2ZM16 7.7C13.7 7.7 13.5 7.7 12.6 7.7C11.7 7.7 11.1 7.9 10.6 8.1C10.1 8.3 9.60001 8.6 9.10001 9.1C8.60001 9.6 8.40001 10 8.10001 10.6C7.90001 11.1 7.80001 11.7 7.70001 12.6C7.70001 13.5 7.70001 13.8 7.70001 16C7.70001 18.3 7.70001 18.5 7.70001 19.4C7.70001 20.3 7.90001 20.9 8.10001 21.4C8.30001 21.9 8.60001 22.4 9.10001 22.9C9.60001 23.4 10 23.6 10.6 23.9C11.1 24.1 11.7 24.2 12.6 24.3C13.5 24.3 13.8 24.3 16 24.3C18.2 24.3 18.5 24.3 19.4 24.3C20.3 24.3 20.9 24.1 21.4 23.9C21.9 23.7 22.4 23.4 22.9 22.9C23.4 22.4 23.6 22 23.9 21.4C24.1 20.9 24.2 20.3 24.3 19.4C24.3 18.5 24.3 18.2 24.3 16C24.3 13.8 24.3 13.5 24.3 12.6C24.3 11.7 24.1 11.1 23.9 10.6C23.7 10.1 23.4 9.6 22.9 9.1C22.4 8.6 22 8.4 21.4 8.1C20.9 7.9 20.3 7.8 19.4 7.7C18.5 7.7 18.3 7.7 16 7.7Z" fill="white"></path>
+                                        <path d="M16 11.7C13.6 11.7 11.7 13.6 11.7 16C11.7 18.4 13.6 20.3 16 20.3C18.4 20.3 20.3 18.4 20.3 16C20.3 13.6 18.4 11.7 16 11.7ZM16 18.8C14.5 18.8 13.2 17.6 13.2 16C13.2 14.5 14.4 13.2 16 13.2C17.5 13.2 18.8 14.4 18.8 16C18.8 17.5 17.5 18.8 16 18.8Z" fill="white"></path>
+                                        <path d="M20.4 12.6C20.9523 12.6 21.4 12.1523 21.4 11.6C21.4 11.0477 20.9523 10.6 20.4 10.6C19.8477 10.6 19.4 11.0477 19.4 11.6C19.4 12.1523 19.8477 12.6 20.4 12.6Z" fill="white"></path>
+                                    </svg>
+                                </button>
+
+                                <button>
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16Z" fill="#1DA1F2"></path>
+                                        <path d="M24 11C23.4 11.3 22.8 11.4 22.1 11.5C22.8 11.1 23.3 10.5 23.5 9.7C22.9 10.1 22.2 10.3 21.4 10.5C20.8 9.9 19.9 9.5 19 9.5C16.9 9.5 15.3 11.5 15.8 13.5C13.1 13.4 10.7 12.1 9 10.1C8.1 11.6 8.6 13.5 10 14.5C9.5 14.5 9 14.3 8.5 14.1C8.5 15.6 9.6 17 11.1 17.4C10.6 17.5 10.1 17.6 9.6 17.5C10 18.8 11.2 19.8 12.7 19.8C11.5 20.7 9.7 21.2 8 21C9.5 21.9 11.2 22.5 13 22.5C19.1 22.5 22.5 17.4 22.3 12.7C23 12.3 23.6 11.7 24 11Z" fill="white"></path>
+                                    </svg>
+
+                                    <span>+</span>
+                                </button>
+
+                                <button>
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16Z" fill="#FF0000"></path>
+                                        <path d="M23.6 11.7C23.4 11 22.9 10.5 22.2 10.3C21 10 15.9 10 15.9 10C15.9 10 10.9 10 9.60001 10.3C8.90001 10.5 8.4 11 8.2 11.7C8 13 8 15.6 8 15.6C8 15.6 8 18.2 8.3 19.5C8.5 20.2 9 20.7 9.7 20.9C10.9 21.2 16 21.2 16 21.2C16 21.2 21 21.2 22.3 20.9C23 20.7 23.5 20.2 23.7 19.5C24 18.2 24 15.6 24 15.6C24 15.6 24 13 23.6 11.7ZM14.4 18V13.2L18.6 15.6L14.4 18Z" fill="white"></path>
+                                    </svg>
+
+                                    <span>+</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Language</label>
+                            <div class="select">
+                                <select required>
+                                    <option value="">Select</option>
+                                    <option value="English" selected>English</option>
+                                    <option value="German">German</option>
+                                    <option value="French">French</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Address</label>
+                        <input type="text" placeholder="New York, United States" value="Hempstead, New York, United States">
+                    </div>
+
+                    <div class="btns">
+                        <button class="save-changes-btn">Save Changes</button>
+                        <button class="delete-account-btn">Delete Account</button>
+                    </div>
+                </div>
+
+                <div class="content-right-part">
+                    <div class="content-right">
+                        <img src="./assets/images/user-3.svg" alt="">
+                        <button>Replace Image</button>
+                    </div>
+
+                    <div class="payment-preference-box">
+                        <h2>Payment Preference</h2>
+
+                        <div class="input-group">
+                            <label>Currency</label>
+                            <div class="select">
+                                <select required>
+                                    <option value="">Select</option>
+                                    <option value="USD" selected>USD</option>
+                                    <option value="BDT">BDT</option>
+                                    <option value="INR">INR</option>
+                                    <option value="PKR">PKR</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Preferred Payout Rate</label>
+                            <div class="select">
+                                <select required>
+                                    <option value="">Select</option>
+                                    <option value="500" selected>$500</option>
+                                    <option value="1000">$1000</option>
+                                    <option value="1500">$1500</option>
+                                    <option value="2000">$2000</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Connect Wallet</label>
+                            <div class="wallets">
+                                <button><img src="./assets/images/cw-1.png" alt=""><span>+</span></button>
+                                <button><img src="./assets/images/cw-2.png" alt=""><span>+</span></button>
+                                <button><img src="./assets/images/cw-3.svg" alt=""><span>+</span></button>
+                                <button><img src="./assets/images/cw-4.png" alt=""><span>+</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Js Lib Files -->
+    <script src="./assets/libs/jquery/jquery.min.js"></script>
+    <script src="./assets/libs/apexcharts/apexcharts.min.js"></script>
+
+    <!-- Js Main Files -->
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".side-bar .side-bar-top ul").animate({ scrollTop: 64 });
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,1198 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+:root {
+    scroll-behavior: unset;
+}
+.row{
+    margin: 0 -15px;
+}
+.payolie_page .container{
+    padding: 0 15px;
+    max-width: 1750px;
+}
+.col, [class*=col-]{
+    padding: 0 15px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
+body {
+    font-family: 'Poppins';
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+a{
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.payolie_page {
+    background-color: #4241B6;
+}
+.audience_section {
+    padding: 50px 0;
+    background-image: url(../../images/payolie/world_.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.audience_section .right_arww a svg {
+    margin-right: 20px;
+}
+.audience_section .right_arww a {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.audience_col_left .text_block h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.3;
+}
+.audience_col_left .text_block h3 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.5;
+    margin: 10px 0 0;
+}
+.audience_col_left .text_block {
+    padding: 30px 0 0;
+}
+.audience_col_left .current_block {
+    padding: 30px 0 40px;
+}
+.audience_col_left .current_block h2 {
+    font-weight: 500;
+    font-size: 25.037px;
+    line-height: 26px;
+    margin: 0 0 22px;
+}
+.current_block ul li {
+    padding: 5px  0;
+}
+.current_block ul.color_block {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 1043.21px 1043.21px 1043.21px 1043.21px;
+} 
+.current_block ul.color_block li.red_box {
+    background-color: #FF7C7C;
+    min-width: 125.19px;
+    border-radius: 1043.21px 0px 0px 1043.21px;
+}
+.current_block ul.color_block li.Purple_box {
+    min-width: 66.77px;
+    background-color: #9E7CFF;
+    margin: 0 4.17px;
+} 
+.current_block ul.color_block li.mint_Green_box {
+    background-color: #8FFF7C;
+    min-width: 66.77px;
+}
+.current_block ul.color_block li.Keppel_box {
+    background-color: #3F9A95;
+    min-width: 66.77px;
+    margin-left: 4.17px;
+    border-radius: 0px 01043.21px 1043.21px 0px;
+}
+.table_block {
+    padding: 31.50px 0 0;
+}
+.table_block .table {
+    max-width: 336.05px;
+    margin: 0;
+}
+.table_block .table tr td {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 10.50px 8px;
+}
+.table_block .table tr th {
+    padding: 5px 0; 
+}
+.table_block .table tr th span {
+    height: 10.46px;
+    width: 10.43px;
+    border-radius: 100px;
+    display: inline-block;
+}
+.table_block .table tr th.red_round span {
+    background-color: #FF7C7C;
+}
+.table_block .table tr th.Purple_round span {
+    background-color: #9E7CFF;
+} 
+.table_block .table tr th.mint_Green_round span{
+    background-color: #8FFF7C;
+}
+.table_block .table tr th.Keppel_round span {
+    background-color: #3F9A95;
+}
+.table_block .table tr td:last-child {
+    padding-right: 0;
+    text-align: end;
+    font-weight: 600;
+    font-size: 20.8642px;
+    line-height: 26px;
+}
+.table_block .table tr {
+    border-bottom: 1.04321px solid rgb(255 255 255 / 10%);
+}
+.table_block .table tr:last-child {
+    border-color: #0000;
+}
+.trending_block .trending_left_col .song_box,
+.trending_block .trending_right_col .traffic_box,
+.trending_block .trending_right_col .trending_box,
+.engaged_block .statis_block .progress_box {
+    background: #5857D4;
+    box-shadow: 0px 46px 53px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px 46px 53px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 46px 53px rgba(0, 0, 0, 0.08);
+    -ms-shadow: 0px 46px 53px rgba(0, 0, 0, 0.08);
+    -o-box-shadow: 0px 46px 53px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+}
+
+.trending_block .trending_left_col .song_box {
+    padding: 10px 19.23px  60.97px;
+    height: 100%;
+}
+.audience_col_right {
+    max-width: 21%;
+}
+.trending_right_col .trending_box {
+    padding: 20.89px 18.77px  25px 19.22px;
+}
+.trending_block .trending_left_col {
+    padding-right: 30px;
+}
+.trending_block .trending_right_col {
+    max-width: 341px;
+}
+.audience_col_left .trending_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.trending_block .song_box h3 {
+    font-weight: 300;
+    font-size: 16.715px;
+    line-height: 21px;
+    opacity: 70%;
+}
+.trending_block .song_box .word_text h2 {
+    font-weight: 600;
+    font-size: 26.744px;
+    line-height: 1.2;
+    margin-right: 27.68px;
+}
+.trending_block .song_box .word_text {
+    padding: 12.27px 0;
+}
+.trending_block .song_box .word_text h4 {
+    font-weight: 600;
+    font-size: 13.372px;
+    line-height: 1.2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #63FF67;
+}
+.trending_block .song_box .word_text h4 svg {
+    margin-right: 5.78px;
+}
+.trending_block .song_box > h4 {
+    font-weight: 400;
+    font-size: 13.372px;
+    line-height: 1.2;
+    opacity: 0.4;
+}
+.trending_block .song_box .song_name {
+    padding: 16.44px 0 0;
+}
+.song_box .song_name table.table {
+    margin: 0;
+}
+.song_name table.table tr {
+    border-bottom: 1.04321px solid rgb(255 255 255 / 10%);
+}
+.song_name table.table tr:last-child {
+    border-color: #0000;
+}
+.song_name table.table tr td {
+    font-weight: 300;
+    font-size: 13.372px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    padding: 5px 8px;
+}
+.song_name table.table tr td:last-child {
+    text-align: end;
+    padding-right: 0;
+    font-weight: 600;
+}
+.song_name table.table tr td:first-child {
+    padding-left: 0;
+}
+.trending_right_col .trending_box .tren_text {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.trending_right_col .trending_box .tren_text h3 {
+    font-weight: 500;
+    font-size: 16.715px;
+    line-height: 1.2;
+}
+.trending_right_col .trending_box .tren_text h2 {
+    font-weight: 600;
+    font-size: 20.058px;
+    line-height: 1.2;
+}
+.trending_right_col .trending_box .tren_text {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 0 5px;
+}
+.trending_right_col .trending_box > h2 {
+    font-weight: 200;
+    font-size: 11.7005px;
+    line-height: 21px;
+    opacity: 0.4;
+}
+.trending_block .trending_right_col .traffic_box {
+        padding: 46.75px 43px 31px 24px;
+}
+.trafic_right_col {
+    padding-left: 20px;
+}
+.traffic_box .trafic_right_col h3 {
+    font-weight: 400;
+    font-size: 15.0435px;
+    line-height: 21px;
+}
+.traffic_box .trafic_right_col h2 {
+    font-weight: 600;
+    font-size: 20.058px;
+    line-height: 1.2;
+    padding: 8.6px 0;
+}
+.traffic_box .trafic_right_col h4 {
+    font-weight: 400;
+    font-size: 11.7005px;
+    line-height: 1.4;
+    opacity: 0.4;
+}
+.trending_right_col .trending_box {
+    margin-bottom: 30.6px;
+}
+.most_block .most_text h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height:1.2;
+}
+.engaged_block .most_block .range_box {
+    padding: 30px 0 0;
+}
+.range_box .color_box {
+    border-radius: 15px;
+    height: 68px;
+    width: 68px;
+    margin-right: 20px;
+}
+.range_box .color_box.color_box_1 {
+    background-color: #9E1AF8;
+}
+.range_box .color_box.color_box_2 {
+    background-color: #4FC2F4;
+}
+.most_block .range_box h3 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.2;
+    opacity: 0.8;
+    padding-bottom: 16px;
+}
+.most_block .range_box h4 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 25px;
+}  
+.engaged_block .age_box {
+    padding: 25px 0 0;
+}
+.forecast_block {
+    padding: 64px 0 0;
+}
+.forecast_block .conve_text {
+    padding: 0 0 30px;
+}
+.conve_text h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1;
+} 
+.forecast_block .monthly_box > h3,
+.forecast_block .yearly_box > h3 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.2;
+    opacity: 0.8;
+}  
+.average_text h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #63FF67;    
+    padding-left: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.average_text  h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 25px;
+}
+.average_text h3 svg {
+    margin-right: 6px;
+}
+.forecast_block .average_text,
+.progress_box .average_text {
+    padding: 15px 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.forecast_block h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    opacity: 0.4;
+}
+.forecast_block .monthly_box {
+    padding-bottom: 25px;
+}
+.engaged_block .statis_block .progress_box {
+    padding: 30px 59px 38px 35px;
+}
+.engaged_block .statis_block {
+    padding: 64px 0 0;
+}
+#traffic_chart .apexcharts-radial-series > path {
+    stroke: #B7FF8A;
+}
+#traffic_chart{
+    min-height: auto !important;
+}
+#traffic_chart .apexcharts-canvas .apexcharts-inner {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+}
+#traffic_chart .apexcharts-canvas{
+    width: 93.6px !important;
+    height: 93.6px !important;
+    position: relative;
+}
+#traffic_chart .apexcharts-canvas svg {
+    display: inline-block;
+    width: 123.6px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+g#SvgjsG1112 {
+    -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+            transform: translateY(0px);
+}
+g#SvgjsG1114 {
+    -webkit-transform: translateY(-8px);
+        -ms-transform: translateY(-8px);
+            transform: translateY(-8px);
+}
+text#SvgjsText1113 {
+    font-weight: 500;
+    font-size: 20.058px;
+    line-height: 21px;
+    font-family: 'Poppins' !important;
+}
+.progress_box > h3 {
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.progress_box h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    opacity: 0.4;
+}
+.progress_inner {
+    padding: 21px 0 0;
+}
+.progressBar {
+    margin-bottom: 12px;
+    position: relative;
+}
+.progressBar h4 {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+.progressBarcontainer {
+    width: 100%;
+    height: 5px;
+    border-radius: 0.3em;
+}
+.progressBarValue {
+    height: 5px;
+    float: left;
+    border-radius: 1000px;
+}
+.progressBarValue_1 {
+    background-color: #FF7C7C;
+}
+.progressBarValue_2 {
+    background-color: #9E7CFF;
+}
+.progressBarValue_3 {
+    background-color: #63FF67;
+}
+.progressBar:last-child {
+    margin-bottom: 0;
+}
+.audience_section .right_arww a.mobile_back_btn {
+    display: none;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .trending_block .song_box .song_name {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .payolie_page .container{
+        padding: 0 25px;
+    }
+    .audience_section {
+        padding: 0px 0 50px;
+        background-size: 640px;
+        background-position: center 38%;
+    }
+    .audience_section .right_arww a svg {
+        margin-right: 10px;
+        width: 24px;
+        height: 20px;
+    }
+    .audience_section .right_arww a {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .audience_col_left .text_block {
+        text-align: center;
+    }
+    .audience_col_left .text_block h2 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+    .audience_col_left .text_block h3 {
+        font-size: 49px;
+        line-height: 1.5;
+        margin: 25px 0 0;
+    }
+    .audience_col_left .current_block {
+        padding: 25px 0 60px;
+    }
+    
+    .current_block ul.color_block li.red_box {
+        min-width: 38%;
+    }
+    .current_block ul.color_block li.Purple_box,
+    .current_block ul.color_block li.mint_Green_box,
+    .current_block ul.color_block li.Keppel_box {
+        min-width: 20%;
+    }
+    .table_block {
+        padding: 15.5px 0 0;
+    }
+    .table_block .table tr td {
+        padding: 5.5px 5px;
+        font-size: 16px;    
+    }
+    .table_block .table tr th {
+        padding: 5.5px 0 5.5px 0;
+    }
+    .table_block .table tr td:last-child {
+        font-size: 18.8642px;
+    }
+    .trending_block .trending_left_col {
+        padding-right: 0;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .trending_right_col .trending_box {
+        margin-bottom: 15px;
+    }
+    .trending_block .trending_left_col .song_box,
+    .trending_right_col .trending_box, 
+    .trending_block .trending_right_col .traffic_box,
+    .engaged_block .statis_block .progress_box {
+        padding: 20px;
+    }
+    .trending_block .trending_right_col {
+        max-width: 100%;
+        width: 100%;
+    }
+    .trending_block .song_box .word_text h2 {
+        font-size: 20.744px;
+        margin-right: 20.68px;
+    }
+    .trending_block .song_box .word_text {
+        padding: 10.27px 0;
+    }
+    .trending_block .song_box h3 {
+        font-size: 14.715px;
+    }
+    .trending_block .song_box .song_name {
+        padding: 10.44px 0 0;
+    }
+    .trending_right_col .trending_box .tren_text h3 {
+        font-size: 14.715px;
+        line-height: 1.5;
+    }
+    .trending_right_col .trending_box .tren_text h2 {
+        font-size: 18.058px;
+        line-height: 21px;
+    }
+    .traffic_box .trafic_right_col h3 {
+        font-size: 13.0435px;
+        line-height: 1.5;
+    }
+    .traffic_box .trafic_right_col h2 {
+        font-size: 18.058px;
+        line-height: 1.4;
+        padding: 5.6px 0;
+    }
+    .traffic_box .trafic_right_col h4 {
+        line-height: 1.5;
+    }
+    g#SvgjsG1114 {
+        -webkit-transform: translateY(-9px);
+            -ms-transform: translateY(-9px);
+                transform: translateY(-9px);
+    }
+    .audience_col_right {
+        max-width: 100%;
+        padding-top: 15px;
+        display: flex;
+        flex-flow: column;
+    }
+    .most_block .most_text h2 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .engaged_block .most_block .range_box {
+        padding: 25px 0 0;
+    }
+    .range_box .color_box {
+        height: 58px;
+        width: 68px;
+        margin-right: 15px;
+    }
+    .most_block .range_box h3 {
+        font-size: 16px;
+        line-height: 1.2;
+        padding-bottom: 5px;
+    }
+    .fan_box, .age_box{
+        align-items: center;
+    }
+    .most_block .range_box h4 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .engaged_block .age_box {
+        padding: 15px 0 0;
+    }
+    .forecast_block {
+        padding: 60px 0 0;
+    }
+    .forecast_block .conve_text {
+        padding: 0 0 15px;
+    }
+  
+    .conve_text h2 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .forecast_block .monthly_box {
+        padding-bottom: 15px;
+    }
+    .average_text  h4 {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+    .forecast_block .average_text, .progress_box .average_text {
+        padding: 6px 0;
+    }
+    .forecast_block .monthly_box > h3, .forecast_block .yearly_box > h3 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .forecast_block h5 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .average_text h3 {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    .engaged_block .statis_block {
+        padding:0 0 80px;
+        order: -1;
+    }
+    .progress_box > h3 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .progress_box h5 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .progress_inner {
+        padding: 15px 0 0;
+    }
+    .table_block .table {
+        max-width: 100%;
+    }
+    .audience_section .right_arww a.mobile_back_btn {
+        display: block;
+        text-align: center;
+    }
+    .audience_section .right_arww a.desktop_back_btn{
+        display: none;
+    }
+    .right_arww{
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 110px;
+        margin: 0 -25px;
+        margin-bottom: 80px;
+    }
+    .audience_section .right_arww a.mobile_back_btn{
+        background: linear-gradient(180deg, #C5D8F5 0%, #0E0CBA 98.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-weight: 500;   
+        font-size: 22px;
+    }
+   
+  
+}
+@media (max-width: 575px){
+    .most_block, .forecast_block{
+        margin: 0 auto;
+        min-width: 230px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .audience_section {
+        padding: 60px 0 60px;
+        background-size: 50%;
+        
+    }
+    .audience_block {
+        max-width: 55%;
+    }
+    .audience_col_right {
+        max-width: 45%;
+    }
+    .trending_block .trending_left_col {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .trending_right_col .trending_box {
+        margin-bottom: 20px;
+    }
+    .engaged_block .statis_block .progress_box {
+        max-width: 315px;
+    }
+    .audience_section .right_arww a {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .audience_section .right_arww a svg {
+        margin-right: 15px;
+        height: 20px;
+        width: 30px;
+    }
+    .audience_col_left .text_block {
+        padding: 30px 0 0;
+    }
+    .audience_col_left .text_block h2 {
+        font-size: 23px;
+        line-height: 1.5;
+    }
+    .audience_col_left .text_block h3 {
+        font-size: 35px;
+        line-height: 1.5;
+    }
+    .audience_col_left .current_block {
+        padding: 25px 0 25px;
+    }
+    .audience_col_left .current_block h2 {
+        font-size: 20.037px;
+        line-height: 1.4;
+        margin: 0 0 15px;
+    }
+    .table_block .table tr td {
+        font-size: 16px;
+    }
+    .table_block .table tr td:last-child {
+        font-size: 18.8642px;
+    }
+    .table_block {
+        padding: 25.5px 0 0;
+    }
+    .trending_block .song_box .word_text h2 {
+        font-size: 23.744px;
+    }
+    .trending_block .trending_left_col .song_box,
+    .trending_right_col .trending_box,
+    .trending_block .trending_right_col .traffic_box {
+        padding: 20px;
+    }
+    .most_block .most_text h2 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .engaged_block .most_block .range_box {
+        padding: 25px 0 0;
+    }
+    .range_box .color_box {
+        height: 58px;
+        width: 58px;
+        margin-right: 15px;
+    }
+    .most_block .range_box h3 {
+        font-size: 18px;
+        line-height: 1.2;
+        padding-bottom: 10px;
+    }
+    .most_block .range_box h4 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .engaged_block .age_box {
+        padding: 15px 0 0;
+    }
+    .forecast_block {
+        padding: 35px 0 0;
+    }
+    .forecast_block .conve_text {
+        padding: 0 0 25px;
+    }
+    .conve_text h2 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .forecast_block .monthly_box > h3, .forecast_block .yearly_box > h3{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .average_text h3 {
+        font-size: 16px;
+    }
+    .average_text  h4 {
+        font-size: 25px;
+        line-height: 23px;
+    }
+    .forecast_block .average_text, .progress_box .average_text {
+        padding: 12px 0;
+    }
+    .forecast_block h5 {
+        line-height: 1.5;
+    }
+    .engaged_block .statis_block {
+        padding: 35px 0 0;
+    }
+    .engaged_block .statis_block .progress_box {
+        padding: 30px 40px 38px 35px;
+    }
+    .progress_box > h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .audience_section {
+        padding:30px 0;
+        background-size: 420px;
+    }
+    .audience_col_right {
+        max-width: 30%;
+    }
+    .audience_block {
+        max-width: 650px;
+        width: 650px;
+    }
+    .trending_block .trending_right_col {
+        max-width: 50%;
+        width: 50%;
+    }
+    .trending_block .trending_left_col {
+        width: 50%;
+    }
+    .audience_section .right_arww a {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+    .audience_section .right_arww a svg {
+        margin-right: 20px;
+        width: 33px;
+        height: 20px;
+    }
+    .audience_col_left .text_block {
+        padding: 20px 0 0;
+    }
+    .audience_col_left .text_block h2 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+    .audience_col_left .text_block h3 {
+        font-size: 40px;
+        line-height: 1.5;
+        margin: 10px 0 0;
+    }
+    .audience_col_left .current_block h2 {
+        font-size: 23.037px;
+        line-height: 1.5;
+        margin: 0 0 16px;
+    }
+    .table_block {
+        padding: 20.5px 0 0;
+    }
+    .audience_col_left .current_block {
+        padding: 20px 0 20px;
+    }
+    .engaged_block .statis_block {
+        padding: 20px 0 0;
+    }
+    .trending_block .song_box .word_text h2 {
+        font-size: 24.744px;
+    }
+    .most_block .most_text h2 {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+    .range_box .color_box {
+        height: 60px;
+        width: 60px;
+    }
+    .most_block .range_box h3 {
+        padding-bottom: 10px;
+    }
+    .most_block .range_box h4 {
+        font-size: 22px;
+        line-height: 23px;
+    }
+    .engaged_block .age_box {
+        padding: 20px 0 0;
+    }
+    .forecast_block {
+        padding: 35px 0 0;
+    }
+    .conve_text h2 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .forecast_block .monthly_box {
+        padding-bottom: 20px;
+    }
+    .forecast_block .conve_text {
+        padding: 0 0 25px;
+    }
+    .average_text  h4 {
+        font-size: 26px;
+    }
+    .forecast_block .average_text, .progress_box .average_text {
+        padding: 10px 0;
+    }
+    .forecast_block .monthly_box > h3, .forecast_block .yearly_box > h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .progress_box h5 {
+        max-width: 173px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1599px){
+    .audience_section {
+        padding: 40px 0;
+        background-size: 600px;
+    }
+  
+    .audience_col_right {
+        max-width: 23%;
+    }
+    .audience_block {
+        max-width: 700px;
+        width: 700px;
+    }
+    .trending_block .trending_right_col {
+        max-width: 38%;
+        width: 38%;
+    }
+    .trending_block .trending_left_col {
+        width: 38%;
+        padding-right: 25px;
+    }
+    .audience_col_left .text_block h2 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .table_block {
+        padding: 20px 0 0;
+    }
+    .engaged_block .most_block .range_box {
+        padding: 20px 0 0;
+    }
+    .table_block .table tr td:last-child {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .audience_col_left .current_block {
+        padding: 30px 0 20px;
+        max-width: 230px;
+    }
+    .table_block .table tr td {
+        line-height: 1;
+        padding: 3px 4px;
+        vertical-align: middle;
+        font-size: 12px;
+    }
+    .audience_col_left .text_block h3 {
+        font-size: 45px;
+        line-height: 1.3;
+    }
+    .audience_col_left .current_block h2 {
+        font-size: 16px;
+        line-height: 1;
+        margin: 0px 0 15px;
+    }
+    .most_block .range_box h4 {
+        font-size: 18px;
+        line-height: 1;
+    }
+    .conve_text h2 {
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .forecast_block .conve_text {
+        padding: 0px 0 20px;
+    }
+    .forecast_block .monthly_box {
+        padding-bottom: 15px;
+    }
+    .forecast_block .average_text, .progress_box .average_text{
+        padding: 7px 0;
+    }
+    .engaged_block .statis_block .progress_box {
+        padding: 20px;
+    }
+    .average_text  h4 {
+        font-size: 20px;
+    }
+    .engaged_block .statis_block {
+        padding: 50px 0 0;
+    }
+    .forecast_block {
+        padding: 35px 0 0;
+    }
+    .audience_section .right_arww a {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .audience_section .right_arww a svg {
+        width: 35px;
+        height: 15px;
+        margin-right: 10px;
+    }
+    .range_box .color_box {
+        height: 45px;
+        width: 45px;
+        border-radius: 10px;
+    }
+    .payolie_page .container{
+        max-width: 90%;
+    }
+    .most_block .range_box h3 {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .most_block .most_text h2  {
+        font-size: 16px;
+    }
+    .forecast_block .monthly_box > h3, .forecast_block .yearly_box > h3{
+        font-size: 13px;
+    }
+    .current_block ul.color_block li.red_box {
+        min-width: 82px;
+    }
+    .current_block ul.color_block li.Purple_box, .current_block ul.color_block li.mint_Green_box,
+    .current_block ul.color_block li.Keppel_box {
+        min-width: 45px;
+    }
+    .current_block ul li{
+        padding: 3.5px 0;
+    }
+    .table_block .table tr th span {
+        height: 7px;
+        width: 7px;
+    }
+    .table_block .table tr th {
+        padding: 2px 0;
+    }
+    .trending_block .song_box h3{
+        font-size: 12px;
+    }
+    .trending_block .song_box .word_text h2 {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+    .trending_block .song_box .word_text {
+        padding: 5px 0;
+    }
+    .trending_block .song_box > h4{
+        font-size: 10px;
+    }
+    .song_name table.table tr td{
+        font-size: 10px;
+    }
+    .trending_block .song_box .song_name {
+        padding: 12px 0 0;
+        max-width: 170px;
+    }
+    .trending_block .trending_left_col .song_box {
+        padding: 10px 15px 30px;
+    }
+    .trending_right_col .trending_box {
+        padding: 15px 15px 0;
+        margin-bottom: 25px;
+    }
+    .trending_right_col .trending_box .tren_text h3{
+        font-size: 13px;
+    }
+    .trending_right_col .trending_box .tren_text h2{
+        font-size: 14px;
+    }
+    .trending_block .trending_right_col .traffic_box {
+        padding: 20px 15px;
+    }
+    .traffic_box .trafic_right_col h3{
+        font-size: 12px;
+    }
+    .traffic_box .trafic_right_col h2 {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+    .traffic_box .trafic_right_col h4{
+        font-size: 10px;
+    }
+    #traffic_chart g#SvgjsG1114 {
+        transform: unset;
+    }
+    #traffic_chart .apexcharts-datalabels-group{
+        transform: translateY(-7px)
+    }
+    #traffic_chart {
+        transform: scale(0.8);
+        margin-left: -15px;
+    }
+    #timeline-chart-1 {
+        min-height: auto !important;
+    }
+    .engaged_block .age_box {
+        padding: 15px 0 0;
+    }
+    .trending_block .song_box .word_text h4{
+        font-size: 10px;
+    }
+    .trending_block .song_box .word_text h4 svg {
+        margin-right: 5px;
+        max-width: 8px;
+        margin-top: -2px;
+    }
+    .average_text h3, .progressBar h4{
+        font-size: 12px;
+    }
+    .average_text h3 svg {
+        margin-right: 6px;
+        max-width: 9px;
+    }
+    .forecast_block h5, .progress_box h5{
+        font-size: 11px;
+    }
+    .progress_box > h3{
+        font-size: 14px;
+    }
+    .progress_inner {
+        padding: 15px 0 0;
+    }
+   
+    
+}
+@media (min-width: 1600px) and (max-width: 1699px){
+    .audience_section {
+        background-size: 800px;
+    }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>video choose</title>
+    
+        <link type="image/x-icon" rel="shortcut icon" href="assets/images/crypto-icon.png" />
+        <!-- Required meta tags -->
+        <meta charset="UTF-8" />
+        <meta name="HandheldFriendly" content="true">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+    
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+        <!-- Style Sheet -->
+        <link type="text/css" rel="stylesheet" href="assets/css/pages/video-choose.css" />
+    
+    </head>
+<body>
+
+    <!-- Main Section Start -->
+    <div class="main_wrapper">
+        <div class="header_wrap">
+            <a href="#0"><img src="assets/images/brand/icon-primary-light.svg" alt /></a>
+        </div>
+        <div class="container">
+            <div class="spacer">
+                <div class="select_wrapper">
+                    <div class="select_warp">
+                        <input type="file" id="uploadVideoFile" accept="video/*" />
+                        <div class="videoSour_position">
+                            <div id="videoSourceWrapper">
+                                <video style="width: 100%;" controls>
+                                   <source id="videoSource"/>
+                                </video>
+                                <div class="progress-overlay">
+                                    <div class="progress-overlay-inner">
+                                        <p class="file-name"></p>
+                                        <div class="progress-cover">
+                                            <div id="uploadVideoProgressBar" style="height: 5px; width: 0%; background: #E266ED; "></div>  
+                                        </div>    
+                                        <div class="progress-meta">
+                                            <span class="upload-filesize"></span>
+                                            <span class="upload-percentage"></span>
+                                        </div>  
+                                    </div>  
+                                </div>
+                             </div>
+                        </div>
+                        <img src="assets/images/video-img-1.png" alt />
+                        <h6>Select a file or drag and drop here</h6>
+                        <p>MP4 or MOV, file size no more than 1GB</p>
+                        <label class="custom_file_upload">
+                            Select file
+                        </label> 
+                    </div>
+                </div>
+                <div class="video_input">
+                 <div>
+                     <input type="text" name="" placeholder="Title">
+                     <textarea name="Description"  cols="30" rows="10" placeholder="Description"></textarea>
+                 </div>
+                </div>
+                <div class="video_btn">
+                    <div>
+                        <a href="#0" class="single_btn">Submit Video</a>
+                    </div>
+                    <div>
+                        <a href="#" class="video_link">Go Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Section End -->
+
+    <!-- jQuery first JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+  $("#videoSourceWrapper").hide();
+});
+
+
+$('#uploadVideoFile').on('change',
+    function() {
+        var fileInput = document.getElementById("uploadVideoFile");
+        console.log('Trying to upload the video file: %O', fileInput);
+
+        if ('files' in fileInput) {
+            if (fileInput.files.length === 0) {
+                // alert("Select a file to upload");
+            } else {
+                var $source = $('#videoSource');
+                $source[0].src = URL.createObjectURL(this.files[0]);
+                $source.parent()[0].load();
+                $("#videoSourceWrapper").show();
+                UploadVideo(fileInput.files[0]);
+            }
+        } else {
+            console.log('No found "files" property');
+        }
+    }
+);
+
+    function UploadVideo(file) {
+        var loaded = 0;
+        var chunkSize = 500000;
+        var total = file.size;
+        var reader = new FileReader();
+        var slice = file.slice(0, chunkSize);
+                
+        // Reading a chunk to invoke the 'onload' event
+        reader.readAsBinaryString(slice); 
+        console.log('Started uploading file "' + file.name + '"');
+        $('#uploadVideoProgressBar').show();
+            
+        reader.onload = function (e) {
+        //Just simulate API
+        setTimeout(function(){
+            loaded += chunkSize;
+            var percentLoaded = Math.min((loaded / total) * 100, 100);
+            console.log('Uploaded ' + Math.floor(percentLoaded) + '% of file "' + file.name + '"');
+            $('#uploadVideoProgressBar').width(percentLoaded + "%");
+            $(".upload-percentage").html("Uploading.. " + Math.floor(percentLoaded) + "%");
+            $(".file-name").html(file.name);            
+            $(".upload-filesize").html(Math.floor(loaded / 1024000) + " MB of " + Math.floor(total / 1024000) + " MB");
+
+            //Read the next chunk and call 'onload' event again
+            if (loaded <= total) {
+            slice = file.slice(loaded, loaded + chunkSize);
+            reader.readAsBinaryString(slice);
+            } else { 
+            loaded = total;
+            console.log('File "' + file.name + '" uploaded successfully!');
+            $('#uploadVideoProgressBar').hide();
+            $(".select_warp").addClass("uploaded");
+            $(".single_btn").addClass("active");
+            }
+        }, 250);
+        }
+    }
+
+    </script>
+    
+</body>
+
+</html>

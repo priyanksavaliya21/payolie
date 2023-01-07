@@ -1,0 +1,14 @@
+:root {
+
+    /* Colors */
+    --primary-color: #E266ED;
+    --dark-color: #191628;
+
+    /* Text Colors */
+    --primary-text-color: #494667;
+    --secondary-text-color: rgba(73, 70, 103, 0.5);
+
+    /* Font Families */
+    --primary-font-family: 'Poppins', sans-serif;
+
+}

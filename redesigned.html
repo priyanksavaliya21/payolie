@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Redesigned</title>
+	<link type="image/x-icon" rel="shortcut icon" href="assets/images/crypto-icon.png" />
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="HandheldFriendly" content="true">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" type="text/css" />
+
+    <!-- Style Sheet -->
+    <link type="text/css" rel="stylesheet" href="assets/css/pages/redesigned.css" />
+</head>
+<body>
+
+    <div class="redesigned_warp">
+        <div class="redesigned_logo">
+            <a href="#0"><img src="assets/images/redesigned-logo.svg" alt /></a>
+        </div>
+        <div class="redesigned_sec">
+            <div>
+                <div class="review_title">
+                    <h6>Review your release details</h6>
+                </div>
+                <div class="redesigned_warp_inner">
+                    <div class="main_redesigned">
+                        <div class="redesigned_left">
+                            <div class="redesigned_img">
+                                <img src="assets/images/redesigned-image.png" alt />
+                                <div class="release_sec">
+                                    <h6>Tha Carter V</h6>
+                                    <p>Album by Lil Wayne</p>
+                                    <div class="dropdown">
+                                    <div class="select">
+                                      <span>Release Genre</span>
+                                      <i class="fa fa-chevron-left"></i>
+                                    </div>
+                                    <input type="hidden" name="gender">
+                                    <ul class="dropdown-menu">
+                                      <li id="Release">Release Genre</li>
+                                      <li id="Release">Release One</li>
+                                      <li id="Release">Release Two</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="redesigned_right">
+                            <div class="found_sec">
+                                <h6>Found on</h6>
+                                <div class="mobile_block">
+                                    <div class="music_icon">
+                                        <span><img src="assets/images/music.svg" alt /></span><p>Apple Music</p>
+                                    </div>
+                                    <div class="music_icon spotify_icon">
+                                        <span><img src="assets/images/spotify.svg" alt /></span><p>Spotify</p>
+                                    </div>
+                                    <div class="music_icon cloud_icon">
+                                        <span><img src="assets/images/sound_cloud.svg" alt /></span><p>SoundCloud</p>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="next_redesigned">
+            <div class="left_icon">
+                <a href="#0"><img src="assets/images/left-icon.png" alt /></a>
+            </div>
+            <div class="right_icon">
+                <a href="#0"><span>Next</span><img src="assets/images/right-icon.png" alt /></a>
+            </div>
+        </div>
+    </div>
+
+	<!-- jQuery first -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <script type="text/javascript">
+
+        $('.dropdown').click(function () {
+            $(this).attr('tabindex', 1).focus();
+            $(this).toggleClass('active');
+            $(this).find('.dropdown-menu').slideToggle(300);
+        });
+        $('.dropdown').focusout(function () {
+            $(this).removeClass('active');
+            $(this).find('.dropdown-menu').slideUp(300);
+        });
+        $('.dropdown .dropdown-menu li').click(function () {
+            $(this).parents('.dropdown').find('span').text($(this).text());
+            $(this).parents('.dropdown').find('input').attr('value', $(this).attr('id'));
+        });
+
+    </script>
+
+</body>
+</html>

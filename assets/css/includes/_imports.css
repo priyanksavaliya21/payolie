@@ -1,0 +1,7 @@
+/* All Include Files */
+@import './_variables.css';
+@import './_global-styles.css';
+
+/* All Component Files */
+@import '../components/_top-bar.css';
+@import '../components/_side-bar.css';

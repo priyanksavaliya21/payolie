@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F5FD;
+    font-family: var(--primary-font-family);
+    color: var(--primary-text-color);
+}
+
+::selection {
+    background: var(--primary-color);
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+button, input, textarea, select {
+    background: none;
+    border: none;
+    outline: none;
+    font-family: var(--primary-font-family);
+    color: var(--dark-color);
+}
+
+button, select {
+    cursor: pointer;
+}
+
+input::placeholder, textarea::placeholder {
+    color: var(--secondary-text-color);
+}
+
+img {
+    user-select: none;
+}

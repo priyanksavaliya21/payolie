@@ -1,0 +1,546 @@
+
+/*********************  Default-CSS  *********************/
+
+html body {
+    font-family: 'Poppins';
+    margin: 0;
+    line-height: 1.4;
+    font-size: 16px;
+    background: #FCF7FC;
+}
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+a,
+span,
+a:hover,
+a:active,
+button {
+    text-decoration: none;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a:focus, button:focus, input:focus, select:focus {
+    outline: none;
+}
+body .clearfix,
+body .clear {
+    clear: both;
+    line-height: 100%;
+}
+body .clearfix {
+    height: auto;
+}
+* {
+    outline: none !important;
+}
+ul
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+/*********************  Default-CSS  *********************/
+
+/*********************  Redesigned - CSS  *********************/
+.redesigned_warp{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../../assets/images/redesigned.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 85px 85px 60px 85px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.redesigned_logo{
+    width: 100%;
+}
+.redesigned_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+}
+.review_title h6{
+    color: #37183A;
+    font-size: 43px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.redesigned_warp_inner{
+    width: 1080px;
+    background: #FBD1FF;
+    box-shadow: 0px -5px 0px #37183A, 0px 74px 150px rgba(246, 148, 255, 0.79);
+    border-radius: 16px;
+    padding: 70px;
+}
+.main_redesigned{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.redesigned_left{
+    width: 80%;
+}
+.redesigned_right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.redesigned_img{
+    display: flex;
+}
+.release_sec{
+    margin:20px 0 0 50px;
+}
+.release_sec h6{
+    color: #37183A;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.release_sec p{
+    margin-top: 5px;
+    color: #B429C0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.dropdown {
+  padding: 8px;
+  margin-top: 35px;
+  display: inline-block;
+  background-color: #37183A;
+  border-radius: 7px;
+  transition: all .5s ease;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px
+}
+.dropdown .select > i {
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-left: 15px;
+    line-height: 24px;
+    transform: rotate(-90deg);
+}
+.dropdown:hover {
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+.dropdown:active {
+    background-color: #37183A;
+}
+.dropdown.active:hover,
+.dropdown.active {
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+    border-radius: 7px 7px 0 0;
+    background-color: #37183A;
+}
+.dropdown.active .select > i {
+    transform: rotate(90deg)
+}
+.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    color: #37183A;
+    width: 100%;
+    left: 0;
+    margin-top: 8px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 2px 2px;
+    overflow: hidden;
+    display: none;
+    max-height: 144px;
+    overflow-y: auto;
+    z-index: 9;
+    border-radius: 0 0 7px 7px;
+}
+.dropdown .dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+} 
+.dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+.dropdown .dropdown-menu li:hover {
+    background-color: #f2f2f2
+}
+.dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2
+}
+.found_sec h6{
+    color: #37183A;
+    font-size: 16px;
+    font-weight: 700;
+}
+.music_icon {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+.music_icon P{
+    color: #37183A;
+    font-size: 16px;
+    font-weight: 500;
+}
+.music_icon span{
+    background: #F882BF;
+    padding: 7px 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.spotify_icon span{
+    padding: 7px 10px;
+}
+.cloud_icon span{
+    padding: 7px 10px;
+}
+.left_icon a{
+    display: inline-block;
+    background-color: #fff;
+    width: 64px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+.left_icon a img{
+    width: 10px;
+}
+.left_icon a:hover{
+    transform: translatey(-5px);
+}
+.next_redesigned{
+    width: 100% !important;
+    padding: 40px 165px 0 165px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right_icon a{
+    display: inline-block;
+    background-color: #fff;
+    padding: 18px 50px;
+    border-radius: 40px;
+    transition: all 0.4s ease;
+    box-shadow: 0px 39px 66px #F695FF;
+    display: flex;
+    align-items: center;
+}
+.right_icon a:hover{
+    transform: translatey(-5px);
+}
+.right_icon span{
+    color: #37183A;
+    font-size: 22px;
+    font-weight: 500;
+}
+.right_icon img{
+    margin-left: 15px;
+    width: 10px;
+}
+/*********************  Redesigned - CSS  *********************/
+
+/*********************  Media Queries - CSS  *********************/
+@media screen and (max-width: 1440px){
+    .redesigned_sec{
+        margin-top: 20px;
+    }
+    .review_title h6 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .redesigned_warp_inner{
+        padding: 40px;
+    }
+    .redesigned_warp {
+        padding: 40px;
+    }
+}
+   
+@media screen and (max-width: 1399px){
+    .next_redesigned {
+        padding: 0 0 0;
+    }
+}
+@media screen and (max-width: 1199px){
+   .redesigned_warp {
+        padding: 15px;
+    }
+    .review_title h6 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .redesigned_warp_inner{
+        width: 900px;
+        padding: 30px 25px;
+    }
+    .redesigned_img img{
+        max-height: 100%;
+        min-height: 100%;
+        object-fit: contain;
+    }
+    .release_sec {
+        margin: 20px 0 0 35px;
+    }
+    .release_sec h6 {
+        font-size: 34px;
+    }
+    .redesigned_left{
+        width: 99%;
+    }
+    .redesigned_right{
+        width: 30%;
+    }
+    .next_redesigned{
+        padding:0 0 30px 0;
+        margin-top: 40px;
+    }
+    .left_icon a{
+        width: 50px;
+        height: 50px;
+    }
+    .right_icon a {
+        padding: 10px 35px;
+    }
+   
+    .redesigned_sec {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 991px){
+   .redesigned_warp {
+        padding: 15px;
+    }
+    
+    .redesigned_warp_inner{
+        width: 735px;
+      
+    }
+    .redesigned_img img{
+        max-height: 100%;
+        min-height: 100%;
+        object-fit: contain;
+    }
+    .release_sec {
+        margin: 20px 0 0 35px;
+    }
+    .release_sec h6 {
+        font-size: 28px;
+    }
+    .redesigned_left{
+        width: 99%;
+    }
+    .redesigned_right{
+        width: 30%;
+    }
+    .next_redesigned{
+        padding:0 0 30px 0;
+        margin-top: 40px;
+    }
+    .left_icon a{
+        width: 50px;
+        height: 50px;
+    }
+    .right_icon a {
+        padding: 10px 35px;
+    }
+}
+@media screen and (max-width: 767px){
+   .redesigned_warp {
+        padding: 15px;
+    }
+  
+    .redesigned_sec{
+        display: block;
+    }
+    
+    .redesigned_warp_inner{
+        width: 100%;
+      
+    }
+    .main_redesigned{
+        flex-wrap: wrap;
+    }
+    .redesigned_left{
+        width: 100%;
+    }
+    .redesigned_right{
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .redesigned_img{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .release_sec{
+        margin: 0;
+    }
+    .release_sec h6{
+        font-size: 32px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .release_sec p {
+        margin-top: 5px;
+    }
+    .dropdown {
+        margin-top: 15px;
+        padding: 3px;
+    }
+    .mobile_block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .music_icon{
+        padding: 0 20px;
+    }
+    .found_sec h6{
+        text-align: center;
+    }
+    .next_redesigned{
+        padding:0 0 30px 0;
+        margin-top: 40px;
+    }
+    .left_icon a{
+        width: 50px;
+        height: 50px;
+    }
+    .right_icon a {
+        padding: 10px 35px;
+    }
+}
+@media screen and (max-width: 575px){
+   .redesigned_warp {
+        padding: 15px;
+    }
+    .redesigned_logo{
+        width: 50px;
+    }
+    .review_title h6{
+        font-size: 20px;
+    }
+    .redesigned_warp_inner{
+        width: 100%;
+    }
+    .main_redesigned{
+        flex-wrap: wrap;
+    }
+    .redesigned_left{
+        width: 100%;
+    }
+    .redesigned_right{
+    
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .redesigned_img{
+        flex-wrap: wrap;
+        text-align: center;
+        display: block;
+    }
+    .release_sec{
+        margin: 0;
+    }
+    .release_sec h6{
+        font-size: 32px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .release_sec p {
+        margin-top: 5px;
+    }
+    .dropdown {
+        margin-top: 15px;
+        padding: 3px;
+    }
+    .dropdown .dropdown-menu{
+        margin-top: 3px;
+    }
+    .found_sec h6{
+        text-align: center;
+        font-size: 25px;
+    }
+    .next_redesigned{
+        padding:0 0 30px 0;
+        margin-top: 40px;
+    }
+    .mobile_block{
+        display: block;
+    }
+    .left_icon a{
+        width: 45px;
+        height: 45px;
+    }
+    .right_icon a {
+        padding: 10px 30px;
+    }
+    .right_icon span {
+        font-size: 16px;
+    }
+    .right_icon img {
+        width: 8px;
+    }
+    .left_icon a img{
+        width: 8px;
+    }
+}
+/*********************  Media Queries - CSS  *********************/
